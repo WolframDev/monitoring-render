@@ -5,4 +5,4 @@ scrape_configs:
   - job_name: "java-render-app"
     metrics_path: "/actuator/prometheus"
     static_configs:
-      - targets: ["crud-rest-supabase.onrender.com"]
+      - targets: ["crud-rest-supabase.onrender.com/api/v1/"]
